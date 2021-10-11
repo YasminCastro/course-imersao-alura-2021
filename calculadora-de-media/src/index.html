@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <link
+      rel="icon"
+      href="https://img-premium.flaticon.com/png/512/5570/premium/5570629.png?token=exp=1632416265~hmac=c5d875f7b06cf9c8c4b303e4104bb0dc"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Calculadora de média</h1>
+      <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas!
+      </p>
+    </div>
+
+    <div>
+      <div>
+        <input type="number" name="nota1" id="iptNota1">
+        <input type="number" name="nota2" id="iptNota2">
+        <input type="number" name="nota3" id="iptNota3" hidden>
+        <input type="number" name="nota4" id="iptNota4" hidden>
+        <input type="number" name="nota5" id="iptNota5" hidden>
+        <input type="number" name="nota6" id="iptNota6" hidden>
+        <input type="number" name="nota7" id="iptNota7" hidden>
+        <input type="number" name="nota8" id="iptNota8" hidden>
+        <input type="number" name="nota9" id="iptNota9" hidden>
+      </div>
+      <div >
+        <button type="submit" onclick="adicionarCampoNotas()"> + </button>
+        <button type="submit" onclick="removerCampoNotas()"> - </button>
+      </div>
+      
+    </div>
+      <div>
+        <button type="submit" onclick="calcularNota()">Calcular</button>
+        <p id="resultado"></p>
+      </div>
+      
+      
+      
+    </a>
+  </body>
+</html>
